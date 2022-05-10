@@ -1,0 +1,180 @@
+/* .div1{  
+ height: 100px;
+ width : 100px;
+ background-color: red;   
+} */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background: url(register3.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+.nav_bar{
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    
+}
+.nav_bar ul{
+    overflow: auto;
+    text-align: right;
+    margin-left: 1020px;
+}
+.nav_bar a{
+    color: black;
+}
+.nav_bar logo {
+    position: absolute;
+    border-radius: 40%;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 30%;
+
+}
+.nav_bar a:hover{
+    color:purple;
+    font-size: 27px ;
+}
+.nav_bar li{
+  
+    font-weight: bold;
+   text-transform: capitalize;
+    list-style: none;
+    
+    padding: 0 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+.container{
+    border: 5px solid rgb(10, 7, 7);
+    border-radius: 25px;
+    padding: 25px;
+    position: absolute;
+    width: 20%;
+    top: 20%;
+    left: 65%;
+    height: 52%;
+}
+.container h1{
+   
+    font-size: 70px;
+    color: rgb(5, 9, 10);
+    border-bottom: 7px solid rgb(9, 48, 56);
+    border-radius: 30%;
+    margin-top: 32px;
+    margin-bottom: 20px;
+    margin-trim: 15%;
+    display:flex;
+    align-items: center;
+
+
+}
+.container p{
+    font-size: 22px;
+    /* color: black; */
+    border-bottom: 7px solid rgb(94, 12, 62);
+    border-radius: 30%;
+    margin-bottom: 27px;
+    margin-top: 15px;
+    padding: 3px;
+}
+
+.box{
+    width: 100%;
+    margin: 12px 5px;
+    padding: 5px 5px;
+    display: flex;
+    margin-bottom: 9px;
+    height: 30px;  
+}
+.box input{
+    width: 98%;
+    outline: none;
+    font-size: 17px;
+    margin-left: 12px;
+    border-radius: 10%;
+}
+.button{
+    cursor: pointer;
+    outline: none;
+    margin-left: 30px;
+    width: 27%;
+    padding: 8px;
+    border: 2px solid rebeccapurple;
+    border-radius: 15px;
+    margin-bottom: 6px;
+    margin-right: 7px;
+    margin-top: 7px;
+}
+.button2{
+    cursor: pointer;
+    outline: none;
+    margin: 0px 0;
+    width: 45%;
+    padding: 8px;
+    border: 2px solid rebeccapurple;
+    border-radius: 15px;
+    margin-bottom: 6px;
+    margin-top:  7px;
+}
+
+
+.menu{
+    width: 10px;
+    display: block;
+    padding:  20px;
+    margin: 10px;
+
+}
+.val
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.val1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 240px;
+    height:280px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 25px 35px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s ;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.card1{
+    background-image: url(https://images.pexels.com/photos/3934044/pexels-photo-3934044.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.card2{
+    background-image: url(https://images.pexels.com/photos/1192632/pexels-photo-1192632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.card3{
+    background-image: url(https://images.pexels.com/photos/4138190/pexels-photo-4138190.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.card4{
+    background-image: url(https://images.pexels.com/photos/3934044/pexels-photo-3934044.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.col :hover{
+    transform: translateY(10px);
+}
+.col{
+    margin-left: 20px;
+}
